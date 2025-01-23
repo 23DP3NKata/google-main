@@ -1,16 +1,28 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+h1, h2, h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
 .dot {
     height: 4px;
     width: 4px;
     background-color: #636363;
-    border-radius: 50%;
+    border-radius: 100%;
     display: inline-block;
 }
 
-#google-lietotnes {
+#dots {
     display: grid;
     grid-template-columns: repeat(3, 4px);
     grid-template-rows: repeat(3, 4px);
     gap: 2px;
+    padding-left: 10px;
 }
 
 a {
@@ -18,3 +30,9 @@ a {
     color: black;
 }
 
+nav {
+    display: flex;
+    gap: 15px;
+    justify-content: right;
+    margin: 20px;
+}
